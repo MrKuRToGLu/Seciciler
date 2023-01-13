@@ -1,0 +1,82 @@
+﻿body {
+    margin:auto;
+}
+.S1 {
+    font-size: 50px;
+    background-color: red;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 25px;
+    font-palette: dark;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 55px;
+    font-style: italic;
+    color: blue;
+}
+#ID {
+   text-align:center;
+   background-color:blue;
+   color:yellow;
+   font-size:75px;
+}
+#ID2{
+    font-size: 55px;
+    font-style: italic;
+    color: blue;
+}
+div > h1 {
+    color: red;
+}
+div > p {
+    color: blue;
+}
+span > p{
+    color:firebrick;
+}
+ul a {
+    text-decoration: none;
+    color: blue;
+}
+ul > li > a {
+    color: red;
+}
+h4 ~ p {
+    color: red;
+    font-size:30px;
+}
+div, p, span{
+    color:green;
+}
+*[class] {
+    color: red;
+}
+a:link {
+    color: red;
+}
+div:hover, p:hover {
+    color: red;
+}
+#a:first-letter {
+    font-size: 40px;
+    color: red;
+}
+
+#b::first-letter {
+    font-size: 40px;
+    color: blue;
+}
+
+
+
+
+
+
+
+    
+
+
